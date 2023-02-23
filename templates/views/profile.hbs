@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {{>header}}
+</head>
+
+<body>
+    <div class="box">
+   <nav class="navbar" role="navigation" aria-label="main navigation">
+      <a class="navbar-item" href="">
+      <img src="" width="112" height="28">
+    </a>
+  <div class="navbar-menu">
+    <!-- navbar items, navbar burger... -->
+     <div class="navbar-start">
+      <a href="profile" class="navbar-item">
+        Home
+      </a>
+      <a class="navbar-item">
+        About
+      </a>
+      <a class="navbar-item">
+        Report an issue
+      </a>
+       <a class="navbar-item">
+            Contact
+          </a>
+      </div>
+    </div>
+
+  </div>
+  <div class="navbar-menu is-active">
+    <!-- navbar start, navbar end -->
+     <div class="navbar-start">
+      <a href="profile" class="navbar-item">
+        Home
+      </a>
+
+      <a class="navbar-item">
+        About
+      </a>
+      <a class="navbar-item">
+        Report an issue
+      </a>
+       <a class="navbar-item">
+            Contact
+          </a>
+      </div>
+    </div>
+
+  </div>
+</nav>
+ </div>
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a href="logout" class="button is-primary">
+            <strong>Sign out</strong>
+          </a>
+          <a href="dashboard" class="button is-primary">
+            <strong>profile</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="tabs is-centered is-boxed is-medium $tabs-link-color">
+  <ul>
+    <li class="is-active">
+      <a>
+        <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
+        <span>Pictures</span>
+      </a>
+    </li>
+    <li>
+      <a>
+        <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
+        <span>Music</span>
+      </a>
+    </li>
+    <li>
+      <a>
+        <span class="icon is-small"><i class="fas fa-film" aria-hidden="true"></i></span>
+        <span>Videos</span>
+      </a>
+    </li>
+    <li>
+      <a>
+        <span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span>
+        <span>Documents</span>
+      </a>
+    </li>
+  </ul>
+</div>
+{{footer}}
+</body>
+</html>

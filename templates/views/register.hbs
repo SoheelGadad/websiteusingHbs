@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+    <title>website</title>
+    
+</head>
+<body>
+    <div class="box">
+   {{>navbar}}
+    </div>
+    <div id="login-form-wrap">
+        <p  class="loginid">Signup</p>
+        <form action="/register" method="POST"><div id="login-form">
+        <p><input type="username" id="username" name="username" placeholder="Username" >
+        </p><br>
+        <p><input type="email" id="email" name="email" placeholder="Email Address" >
+        </p><br>
+        <p><input type="password" id="password" name="password" placeholder="password" >
+        </p><br>
+        <p><input type="password" id="confirmpassword" name="confirmpassword" placeholder="confirm password" >
+        </p><br>
+        <p><input type="submit" id="Register" value="register" href="login">
+        </p><br>
+        </form></div>
+        <div id="create-account-wrap">
+        <p>forget password? <a href="login.hbs">forgetpassword</a><p>
+        </div>
+        </div> 
+        <footer><p class="det">For more details:</p><a class="cta" href="#"><button>Content</button></a>
+        </footer> 
+</body>
+</html>

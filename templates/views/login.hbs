@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>website</title>
+     {{>header}}
+</head>
+
+<body>
+    <div class="box">
+   {{>navbar}}
+    </div>
+    <div id="login-form-wrap">
+        <p  class="loginid">Log In</p>
+        <form id="login-form" action="/login" method="post">
+        <p><input type="email" id="email" name="email" class="form-control" placeholder="Email Address" >
+        </p><br>
+        <p><input type="password" id="password" name="password" class="form-control" placeholder="password">
+        </p>
+        <p class="fp"><a href="">Forget password?</a></p><br>
+        <p><input type="submit" id="login" value="Login" href="./users.hbs">
+        </p><br>
+        </form>
+        <div id="create-account-wrap">
+        <p>Not a member? <a id="il" href="register">Create Account</a><p>
+        </div>
+    </div>
+        <footer><p class="det">For more details:</p><a class="cta" href="#"><button>Content</button></a>
+        </footer> 
+</body>
+</html>
